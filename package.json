@@ -4,6 +4,8 @@
   "type": "module",
   "scripts": {
     "scaffold": "bun run scripts/scaffold",
+    "solve": "bun run scripts/solve",
+    "example": "bun run scripts/example",
     "test": "bun test"
   },
   "devDependencies": {
