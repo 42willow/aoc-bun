@@ -1,0 +1,15 @@
+{
+  "name": "aoc-bun",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "scaffold": "bun run scripts/scaffold",
+    "test": "bun test"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  }
+}
