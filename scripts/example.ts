@@ -2,10 +2,7 @@ import { getEst, info, usage } from "./utils";
 
 const [part, day, year] = process.argv.slice(2);
 
-if (
-  process.argv.slice(2).includes("--help") ||
-  process.argv.slice(2).includes("-h")
-) {
+if (process.argv.slice(2).includes("--help") || process.argv.slice(2).includes("-h")) {
   usage("bun example [part] [day] [year]");
   info("if no arguments are provided the current day and year will be used");
 
